@@ -50,7 +50,7 @@ def load_tokenizer_model(model_type: str, device_: str) -> None:
         )
 
     if not os.path.isdir(model_type):
-        model_type = f"bin/{model_type}"
+        model_type = f"tae898/{model_type}"
 
     global device
     device = device_
