@@ -69,7 +69,7 @@ def run_emoberta():
     """Receive everything in json!!!"""
     app.logger.debug("Receiving data ...")
     data = request.json
-    data = jsonpickle.decode(data)
+    # data = jsonpickle.decode(data)
     text = data["text"]
     app.logger.info(f"raw text received: {text}")
 
